@@ -1,0 +1,264 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-color: #333;
+
+ 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+
+/* Navbar Logo */
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+
+h2 {
+    color: #333;
+}
+
+.team, .statistic, .player {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team h3, .statistic h3, .player h3 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.home video {
+    position: absolute;
+    top: -3;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures video fills the section /
+    z-index: -1;
+    / Puts video behind content */s
+}
+
+.contact a {
+     
+    width: 50px; /* Initial size of the logo */
+    height: 50px; /* Keep the aspect ratio */
+    display: inline-block;
+  
+   }
+
+   .contact {
+    background-color: #333;
+    color: #fff; /* สีข้อความขาว */
+    padding: 20px; /* เพิ่มระยะห่างรอบๆ ข้อความ */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    margin-top: 50px; /* เพิ่มระยะห่างจากส่วนอื่นๆ */
+}
+
+.contact p {
+    margin-top: 40px; /* เพิ่มระยะห่างด้านบนให้กับข้อความใน <p> */
+}
+
+.foat p {
+    padding: 290px;
+    margin-top: 100px;
+}
+
+h2 {
+    color: #333;
+}
+
+h4 {
+    color: #444;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Main Section */
+.main-section {
+    padding: 30px 0;
+}
+
+/* News Section */
+.news-section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.news-item {
+    margin-bottom: 15px;
+}
+
+/* Highlights Section */
+.highlights-section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.highlight-item {
+    margin-bottom: 15px;
+}
+
+.highlight-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.highlight-item a:hover {
+    text-decoration: underline;
+}
+
+/* Teams Section */
+.teams-section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.teams-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.teams-section ul li {
+    margin: 10px 0;
+}
+
+.teams-section ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.teams-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Player Stats Section */
+.player-stats-section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-stats-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.player-stats-section ul li {
+    margin: 10px 0;
+}
+
+.player-stats-section ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.player-stats-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Players Section */
+.players-section {
+    background-color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
